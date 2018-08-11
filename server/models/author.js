@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 const {Schema} = mongoose;
 
 const authorSchema = new Schema({
-    id: String,
     name: String,
     age: Number,
 });
